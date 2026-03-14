@@ -323,8 +323,8 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.4);
   }
   .qr-frame img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 250px;
     display: block;
     border-radius: 6px;
   }
@@ -807,7 +807,7 @@
       <div class="recipient">Neelam Kumari</div>
 
       <div class="qr-frame">
-        <img src="/mnt/user-data/uploads/IMG-20260314-WA0001.jpg" alt="UPI QR Code – Scan to Pay">
+        <img src="upi-qr.jpg" alt="UPI QR Code – Scan to Pay">
       </div>
 
       <!-- Interactive UPI ID with copy button -->
@@ -823,13 +823,6 @@
         <span id="copy-label">Copy UPI ID</span>
       </button>
 
-      <!-- Step-by-step guide -->
-      <div class="upi-steps">
-        <div class="step-pill"><span class="step-num">1</span> Open any UPI app</div>
-        <div class="step-pill"><span class="step-num">2</span> Tap "Send Money"</div>
-        <div class="step-pill"><span class="step-num">3</span> Paste UPI ID</div>
-        <div class="step-pill"><span class="step-num">4</span> Enter amount &amp; pay</div>
-      </div>
 
       <div style="margin-top:16px;">
         <div class="upi-apps">Google Pay · PhonePe · Paytm · BHIM · Any UPI App</div>
@@ -878,48 +871,6 @@
       </svg>
       <span id="report-copy-label">Copy Lab Report Link to Share</span>
     </button>
-  </div>
-
-  <!-- SHARE -->
-  <div class="section">
-    <div class="section-label">Spread the Word</div>
-    <p class="share-note">
-      Even if you cannot contribute financially, <strong>sharing this with your friends and family</strong> costs nothing and can change everything. A single forward could reach someone who is able to help.<br><br>
-      We are deeply grateful for every prayer, every share, and every contribution. Our family thanks you from the bottom of our hearts. 🙏
-    </p>
-
-    <!-- Short message to copy & post -->
-    <div class="share-msg-box" id="share-msg-box">
-      <div class="share-msg-header">
-        <span class="share-msg-label">📋 Ready-to-Send Message</span>
-        <span class="share-msg-hint">Copy &amp; paste into WhatsApp / Telegram</span>
-      </div>
-      <div class="share-msg-body" id="share-msg-text">🙏 *Please Help — Medical Emergency*
-
-My father *Mr. Govind Roy* (65) was admitted to Medicover Hospitals, Hyderabad on 10 March with a critical COPD attack. His oxygen dropped to 66% and he needed emergency intubation &amp; ICU care for 5 days. He is now stable but still recovering in ICU.
-
-💰 *Net hospital bill: ₹1,90,270* (after staff discount) — and still counting.
-
-📋 Full story, documents &amp; live lab reports:
-👉 [PASTE YOUR GITHUB PAGES LINK HERE]
-
-💳 *Donate via UPI:*
-neelamkumari01222005-1@okicici
-
-Any amount helps. Even a share helps more. 🙏</div>
-      <button class="share-copy-btn" id="shareCopyBtn" onclick="copyShareMsg()">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
-        </svg>
-        <span id="share-copy-label">Copy Message</span>
-      </button>
-    </div>
-  </div>
-
-  <!-- TOAST -->
-  <div class="toast" id="toast">
-    <span id="toast-icon">✅</span>
-    <span id="toast-msg">Copied to clipboard!</span>
   </div>
 
   <script>
