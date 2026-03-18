@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help Govind Roy — Discharged & Recovering | Support Still Needed</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #fdf8f2;
+    --warm-white: #fffcf8;
+    --amber: #d97706;
+    --amber-light: #fef3c7;
+    --amber-mid: #f59e0b;
+    --brown: #78350f;
+    --soft-brown: #92400e;
+    --text-dark: #1c1510;
+    --text-mid: #44312a;
+    --text-soft: #78695e;
+    --border: #e8ddd4;
+    --red-soft: #fef2f2;
+    --red: #dc2626;
+    --green: #065f46;
+    --green-bg: #ecfdf5;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-dark);
+    min-height: 100vh;
+  }
+
+  .page-wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    background: var(--warm-white);
+    box-shadow: 0 0 60px rgba(120,53,15,0.08);
+  }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, #78350f 0%, #b45309 60%, #d97706 100%);
+    padding: 48px 40px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .header-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fef3c7;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    font-family: 'Lora', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .header .subtitle {
+    color: #fde68a;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  .heart-icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 16px;
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+  }
+
+  .alert-bar {
+    background: var(--red-soft);
+    border-left: 4px solid var(--red);
+    padding: 14px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .alert-bar span {
+    font-size: 13.5px;
+    color: #991b1b;
+    font-weight: 500;
+  }
+  .alert-bar.discharged {
+    background: var(--green-bg);
+    border-left-color: #059669;
+  }
+  .alert-bar.discharged span { color: var(--green); }
+  .progress-bar-wrap {
+    background: var(--cream);
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-mid);
+    margin-bottom: 10px;
+  }
+  .progress-track {
+    background: #e5e7eb;
+    border-radius: 100px;
+    height: 10px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    background: linear-gradient(90deg, #059669, #34d399);
+    height: 100%;
+    border-radius: 100px;
+    width: 21%;
+    transition: width 1s ease;
+  }
+  .progress-note {
+    font-size: 12px;
+    color: var(--text-soft);
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  /* ── Body sections ── */
+  .section {
+    padding: 32px 40px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section:last-child { border-bottom: none; }
+
+  .section-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin-bottom: 16px;
+  }
+
+  /* ── Story ── */
+  .story p {
+    font-family: 'Lora', serif;
+    font-size: 16.5px;
+    line-height: 1.85;
+    color: var(--text-mid);
+    margin-bottom: 14px;
+  }
+  .story p:last-child { margin-bottom: 0; }
+  .story strong { color: var(--text-dark); font-weight: 600; }
+
+  /* ── Patient card ── */
+  .patient-card {
+    background: var(--amber-light);
+    border: 1.5px solid #fcd34d;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+  .patient-card .name {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--brown);
+    margin-bottom: 4px;
+  }
+  .patient-card .details {
+    font-size: 13.5px;
+    color: var(--soft-brown);
+    font-weight: 500;
+  }
+  .patient-card .hospital {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--text-soft);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ── Timeline ── */
+  .timeline { position: relative; padding-left: 24px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px; top: 8px; bottom: 8px;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--amber), #fcd34d, var(--green));
+  }
+  .tl-item {
+    position: relative;
+    margin-bottom: 18px;
+    padding-left: 16px;
+  }
+  .tl-item:last-child { margin-bottom: 0; }
+  .tl-dot {
+    position: absolute;
+    left: -17px;
+    top: 5px;
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background: var(--amber);
+    border: 2px solid var(--warm-white);
+    box-shadow: 0 0 0 2px var(--amber);
+  }
+  .tl-dot.green { background: #059669; box-shadow: 0 0 0 2px #059669; }
+  .tl-dot.red { background: var(--red); box-shadow: 0 0 0 2px var(--red); }
+  .tl-date {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--amber);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .tl-text {
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.5;
+  }
+
+  /* ── Medical facts ── */
+  .facts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .fact-box {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .fact-box .fact-label {
+    font-size: 10.5px;
+    color: var(--text-soft);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .fact-box .fact-val {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  .fact-box.highlight {
+    background: var(--amber-light);
+    border-color: #fcd34d;
+  }
+  .fact-box.highlight .fact-val { color: var(--brown); }
+
+  /* ── Current status ── */
+  .status-good {
+    background: var(--green-bg);
+    border: 1.5px solid #6ee7b7;
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .status-good .icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+  .status-good .text { font-size: 14.5px; color: var(--green); line-height: 1.6; font-weight: 500; }
+
+  /* ── Costs ── */
+  .cost-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 14px;
+  }
+  .cost-row:last-child { border-bottom: none; }
+  .cost-row .label { color: var(--text-soft); }
+  .cost-row .val { font-weight: 600; color: var(--text-dark); }
+  .cost-row.total .label { font-weight: 700; color: var(--text-dark); font-size: 15px; }
+  .cost-row.total .val { color: var(--red); font-size: 20px; }
+  .cost-note {
+    margin-top: 12px;
+    font-size: 12.5px;
+    color: var(--text-soft);
+    font-style: italic;
+    background: var(--cream);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border-left: 3px solid var(--amber);
+  }
+
+  /* ── How to help ── */
+  .help-intro {
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--text-mid);
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+
+  .upi-card {
+    background: linear-gradient(135deg, #1a0a00 0%, #3b1a08 100%);
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .upi-card::before {
+    content: '';
+    position: absolute;
+    top: -30px; right: -30px;
+    width: 120px; height: 120px;
+    background: radial-gradient(circle, rgba(217,119,6,0.3), transparent 70%);
+  }
+  .upi-card .upi-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fcd34d;
+    margin-bottom: 6px;
+  }
+  .upi-card .recipient {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .qr-frame {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .qr-frame img {
+    width: 200px;
+    height: 250px;
+    display: block;
+    border-radius: 6px;
+  }
+  .upi-id-box {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .upi-id-box .id-label { font-size: 10px; color: #fde68a; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 3px; }
+  .upi-id-box .id-val { font-size: 14px; color: #fff; font-weight: 600; font-family: monospace; letter-spacing: 0.5px; }
+  .upi-apps {
+    font-size: 12px;
+    color: rgba(255,255,255,0.55);
+  }
+
+  /* ── Copy button ── */
+  .copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.15);
+    border: 1.5px solid rgba(255,255,255,0.35);
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+  }
+  .copy-btn:hover {
+    background: rgba(255,255,255,0.25);
+    border-color: rgba(255,255,255,0.6);
+    transform: translateY(-1px);
+  }
+  .copy-btn:active { transform: translateY(0); }
+  .copy-btn.copied {
+    background: rgba(16,185,129,0.3);
+    border-color: #6ee7b7;
+    color: #6ee7b7;
+  }
+
+  /* ── Toast notification ── */
+  .toast {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%) translateY(80px);
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 13.5px;
+    font-weight: 500;
+    padding: 12px 22px;
+    border-radius: 30px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 9999;
+    transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1), opacity 0.3s;
+    opacity: 0;
+    white-space: nowrap;
+  }
+  .toast.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+
+  /* ── UPI step pills ── */
+  .upi-steps {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .step-pill {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 11.5px;
+    color: rgba(255,255,255,0.65);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .step-num {
+    background: var(--amber-mid);
+    color: #fff;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  /* ── Live report tracking card ── */
+  .report-card {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    border: 1px solid rgba(99,179,237,0.2);
+    border-radius: 14px;
+    padding: 20px 22px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 0;
+  }
+  .report-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 36px rgba(15,23,42,0.3);
+  }
+  .report-icon {
+    width: 46px; height: 46px;
+    background: rgba(99,179,237,0.12);
+    border: 1.5px solid rgba(99,179,237,0.28);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .report-body { flex: 1; min-width: 0; }
+  .live-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #4ade80;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .live-pill::before {
+    content: '';
+    width: 7px; height: 7px;
+    background: #4ade80;
+    border-radius: 50%;
+    display: inline-block;
+    animation: blink 1.4s ease-in-out infinite;
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.15; }
+  }
+  .report-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-bottom: 2px;
+  }
+  .report-sub {
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.4;
+  }
+  .report-arrow {
+    color: #63b3ed;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  /* ── Docs grid (Lab + Bill side by side) ── */
+  .docs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  @media (max-width: 500px) {
+    .docs-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ── Bill card ── */
+  .bill-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: linear-gradient(135deg, #1c0a00 0%, #431407 100%);
+    border: 1px solid rgba(251,146,60,0.25);
+    border-radius: 14px;
+    padding: 20px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .bill-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 36px rgba(28,10,0,0.35);
+  }
+  .bill-icon {
+    width: 46px; height: 46px;
+    background: rgba(251,146,60,0.12);
+    border: 1.5px solid rgba(251,146,60,0.3);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .bill-body { flex: 1; min-width: 0; }
+  .updated-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fb923c;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .updated-pill::before {
+    content: '';
+    width: 7px; height: 7px;
+    background: #fb923c;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .bill-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #fef3c7;
+    margin-bottom: 2px;
+  }
+  .bill-sub {
+    font-size: 11.5px;
+    color: #a8764e;
+    line-height: 1.4;
+  }
+  .bill-arrow {
+    color: #fb923c;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  /* ── Counseling card ── */
+  .counseling-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: linear-gradient(135deg, #0d1a1a 0%, #0c2a2a 60%, #133535 100%);
+    border: 1px solid rgba(52,211,153,0.25);
+    border-radius: 14px;
+    padding: 20px 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    grid-column: 1 / -1;
+  }
+  .counseling-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 36px rgba(13,26,26,0.4);
+  }
+  .counseling-icon {
+    width: 46px; height: 46px;
+    background: rgba(52,211,153,0.12);
+    border: 1.5px solid rgba(52,211,153,0.32);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .counseling-body { flex: 1; min-width: 0; }
+  .counseling-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #34d399;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .counseling-pill::before {
+    content: '';
+    width: 7px; height: 7px;
+    background: #34d399;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .counseling-title {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #d1fae5;
+    margin-bottom: 2px;
+  }
+  .counseling-sub {
+    font-size: 11.5px;
+    color: #5e9e8a;
+    line-height: 1.4;
+  }
+  .counseling-arrow {
+    color: #34d399;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+
+  /* ── Share section ── */
+  .share-note {
+    font-size: 14px;
+    color: var(--text-soft);
+    line-height: 1.7;
+    text-align: center;
+  }
+  .share-note strong { color: var(--text-dark); }
+
+  /* ── Share message box ── */
+  .share-msg-box {
+    margin-top: 24px;
+    border: 1.5px dashed var(--amber);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--cream);
+  }
+  .share-msg-header {
+    background: var(--amber-light);
+    border-bottom: 1px solid #fcd34d;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .share-msg-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--brown);
+    letter-spacing: 0.3px;
+  }
+  .share-msg-hint {
+    font-size: 11px;
+    color: var(--soft-brown);
+    opacity: 0.7;
+  }
+  .share-msg-body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    line-height: 1.75;
+    color: var(--text-mid);
+    padding: 16px 18px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    user-select: all;
+  }
+  .share-copy-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px;
+    background: var(--amber);
+    border: none;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13.5px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .share-copy-btn:hover { background: var(--soft-brown); }
+  .share-copy-btn:active { transform: scale(0.99); }
+  .share-copy-btn.copied { background: #059669; }
+
+  /* ── Footer ── */
+  .footer {
+    background: var(--brown);
+    padding: 24px 40px;
+    text-align: center;
+  }
+  .footer p {
+    color: #fde68a;
+    font-size: 13px;
+    line-height: 1.7;
+    opacity: 0.85;
+  }
+  .footer .hospital-ref {
+    color: rgba(253,230,138,0.5);
+    font-size: 11px;
+    margin-top: 8px;
+    font-family: monospace;
+  }
+
+  /* Print / responsive */
+  @media (max-width: 500px) {
+    .section { padding: 24px 20px; }
+    .header { padding: 36px 20px 30px; }
+    .header h1 { font-size: 26px; }
+    .facts-grid { grid-template-columns: 1fr; }
+    .footer { padding: 20px; }
+    .alert-bar { padding: 12px 20px; }
+  }
+
+  @media print {
+    body { background: white; }
+    .page-wrap { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- HEADER -->
+  <div class="header">
+    <span class="heart-icon">🙏</span>
+    <div class="header-badge">Recovery Support Appeal</div>
+    <h1>Our Father Is Home —<br>Your Help Still Matters</h1>
+    <p class="subtitle">Medicover Hospitals, Hyderabad · Discharged 16 March 2026 (night)</p>
+  </div>
+
+  <div class="alert-bar discharged">
+    <span>✅ <strong>Discharged 16 March 2026 (night)</strong> — recovering at home on BiPAP &amp; oxygen. Final bill: <strong>₹1,86,238</strong>. Collected so far: ~₹39,000. Remaining: ~₹1,47,238. Managing through installments — any support still helps deeply.</span>
+  </div>
+
+  <!-- STORY -->
+  <div class="section story">
+    <div class="section-label">Our Story</div>
+
+    <div class="patient-card">
+      <div class="name">Mr. Govind Roy</div>
+      <div class="details">65 Years · Male · Medicover Staff Dependent</div>
+      <div class="hospital">🏥 Medicover Hospitals, Madhapur, Hyderabad &nbsp;|&nbsp; Admission No: MC35IP26030452</div>
+    </div>
+
+    <p>Our father, <strong>Mr. Govind Roy</strong>, was brought to the emergency room on 10 March 2026 with severe breathlessness. His oxygen saturation had fallen dangerously to <strong>66%</strong> — a critical level. He was already living with <strong>hypertension and COPD</strong>, but this acute exacerbation was life-threatening.</p>
+
+    <p>By the grace of God and the dedication of the medical team at Medicover Hospitals, <strong>he was discharged on the night of 16 March 2026</strong> and is now at home, recovering. He came through NIV failure, emergency intubation, and 7 days in the MICU. We are so grateful to everyone who prayed and supported us.</p>
+
+    <p>He has been sent home on <strong>nocturnal BiPAP (IPAP:EPAP 14:6), oxygen at 1–2 L/min for 16–18 hours/day</strong>, and multiple medications. The road to full recovery is long. And the hospital bill — even after a 50% staff discount — is heavy.</p>
+
+    <p>With the kind support of friends and well-wishers, we managed to collect around <strong>₹39,000</strong>. The final net bill is <strong>₹1,86,238</strong>. We are managing the remaining balance through installments. Any contribution, however small, will ease this burden and help our father focus fully on recovering.</p>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="section">
+    <div class="section-label">What Happened — Day by Day</div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot red"></div>
+        <div class="tl-date">10 March — Day 1</div>
+        <div class="tl-text">Rushed to ER with SpO₂ at 66%. Started on NIV/BiPAP. Shifted to MICU 1. PCO₂ dangerously high (84 mmHg), pH 7.24 — severe respiratory acidosis.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot red"></div>
+        <div class="tl-date">11 March — Day 2</div>
+        <div class="tl-text">NIV failure overnight. PCO₂ crossed 115, pH dropped to 7.06 — life-threatening. Emergency intubation at 9:00 AM. Placed on mechanical ventilator. High potassium (6.0) treated urgently.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">12 March — Day 3</div>
+        <div class="tl-text">Shifted from PCV to PSV mode (lighter ventilator support). Serial ABG showing improvement. Abdomen ultrasound done — mild hepatomegaly, bilateral pleural effusions noted. Chest physiotherapy started.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">13 March — Day 4</div>
+        <div class="tl-text">Successfully extubated at 3:30 PM. Breathing tube removed. Tolerating intermittent NIV well. Alert and following commands. Shifted to MICU 3 for step-down care.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">14–16 March — Days 5–7</div>
+        <div class="tl-text">Continued intermittent BiPAP. Chest physio and mobilisation daily. Oral feeds resumed. Kidney function and electrolytes stabilising. Shifted from 1st Floor ICCU for final monitoring.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot green"></div>
+        <div class="tl-date">16 March (night) — Discharged 🏠</div>
+        <div class="tl-text">Discharged in hemodynamically stable condition. Maintaining SpO₂ 94% on 1 L/min supplemental oxygen. Sent home on nocturnal BiPAP, oxygen 16–18 hrs/day, and multiple medications. Follow-up with Dr. Meghana Subhash in 1 week.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CURRENT STATUS -->
+  <div class="section">
+    <div class="section-label">Current Condition</div>
+    <div class="status-good">
+      <div class="icon">🏠</div>
+      <div class="text">
+        <strong>Discharged 16 March 2026 (night) — Recovering at Home.</strong> He is conscious, alert, and stable. Breathing on 1 L/min supplemental oxygen with nocturnal BiPAP (14:6). Diagnosed with Acute Exacerbation of COPD, Type II Respiratory Failure, and possible Obstructive Sleep Apnea. Follow-up with Dr. Meghana Subhash in 1 week. The recovery journey continues at home.
+      </div>
+    </div>
+
+    <div class="facts-grid" style="margin-top: 16px;">
+      <div class="fact-box">
+        <div class="fact-label">Diagnosis</div>
+        <div class="fact-val">Acute Exacerbation of COPD + Type II Respiratory Failure</div>
+      </div>
+      <div class="fact-box">
+        <div class="fact-label">Consultant</div>
+        <div class="fact-val">Dr. Meghana Subhash (Pulmonologist)</div>
+      </div>
+      <div class="fact-box">
+        <div class="fact-label">Total Stay</div>
+        <div class="fact-val">7 Days (10–16 March 2026)</div>
+      </div>
+      <div class="fact-box highlight">
+        <div class="fact-label">Home Equipment Needed</div>
+        <div class="fact-val">BiPAP (IPAP:EPAP 14:6) + O₂ 16–18 hrs/day</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COSTS -->
+  <div class="section">
+    <div class="section-label">Medical Expenses</div>
+
+    <div class="cost-row">
+      <span class="label">Hospital Gross Bill (full 7-day stay)</span>
+      <span class="val">₹3,74,858</span>
+    </div>
+    <div class="cost-row">
+      <span class="label">HR Policy — Staff Dependent Discount</span>
+      <span class="val" style="color:#059669;">Approx. – ₹1,88,620</span>
+    </div>
+    <div class="cost-row total">
+      <span class="label">Final Net Amount Payable</span>
+      <span class="val">₹1,86,238</span>
+    </div>
+
+    <div class="cost-note">
+      📌 This is the <strong>final bill</strong> (Bill Date: 16 Mar 2026) for the complete 7-day stay at Medicover Hospitals, Hyderabad. Includes ICCU ward, ventilator, medicines, lab tests, physiotherapy, and all investigations. The handwritten note on the bill confirms: <em>"To Pay ₹1,86,238 — HR Policy (Staff Dependent)"</em>.
+    </div>
+
+    <div class="progress-bar-wrap" style="margin-top:16px;">
+      <div class="progress-label">
+        <span>💛 Collected so far: ~₹39,000</span>
+        <span style="color:#dc2626;">Remaining: ~₹1,47,238</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill"></div>
+      </div>
+      <div class="progress-note">~21% of bill covered through kind donations. Managing the rest through salary installments. Every contribution reduces the burden.</div>
+    </div>
+  </div>
+
+  <!-- HOW TO HELP -->
+  <div class="section">
+    <div class="section-label">How You Can Help</div>
+
+    <p class="help-intro">"He is home. He is breathing. He is alive — and that is everything. If you helped, thank you from the bottom of our hearts. If you can still help, any amount will ease the installment burden our family carries."</p>
+
+    <div class="upi-card">
+      <div class="upi-label">Donate via UPI</div>
+      <div class="recipient">Neelam Kumari</div>
+
+      <div class="qr-frame">
+        <img src="images/IMG-20260314-WA0001.jpg" alt="UPI QR Code – Scan to Pay">
+      </div>
+
+      <!-- Interactive UPI ID with copy button -->
+      <div class="upi-id-box" id="upi-id-box">
+        <div class="id-label">UPI ID — Tap to copy</div>
+        <div class="id-val" id="upi-id-text">neelamkumari01222005-1@okicici</div>
+      </div>
+
+      <button class="copy-btn" id="copyUpiBtn" onclick="copyUPI()">
+        <svg id="copy-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+        <span id="copy-label">Copy UPI ID</span>
+      </button>
+
+
+      <div style="margin-top:16px;">
+        <div class="upi-apps">Google Pay · PhonePe · Paytm · BHIM · Any UPI App</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAB REPORTS TRACKING + BILL -->
+  <div class="section">
+    <div class="section-label">Documents &amp; Reports</div>
+    <p style="font-size:14px; color:var(--text-soft); margin-bottom:16px; line-height:1.6;">
+      All hospital documents are publicly available for verification — lab results update live, and the full itemised bill can be downloaded below.
+    </p>
+
+    <div class="docs-grid">
+
+      <!-- Financial Counselling Form Card -->
+      <a class="counseling-card" href="images/IMG_20260310_143717.jpg" target="_blank" rel="noopener">
+        <div class="counseling-icon">💼</div>
+        <div class="counseling-body">
+          <div class="counseling-pill">Official Document</div>
+          <div class="counseling-title">Financial Counselling Form</div>
+          <div class="counseling-sub">Hospital-issued · 10 Mar 2026<br>ICU cost breakdown · Patient sign-off</div>
+        </div>
+        <div class="counseling-arrow">↗</div>
+      </a>
+
+      <!-- Lab Reports Card -->
+      <a class="report-card" href="https://www.medicoverhospitals.in/reports/lr.html?i=NTA5NTgwMzg5MTk3MzYzMTY%3D" target="_blank" rel="noopener">
+        <div class="report-icon">🧪</div>
+        <div class="report-body">
+          <div class="live-pill">Live &amp; Updating</div>
+          <div class="report-title">Lab Reports</div>
+          <div class="report-sub">Blood · ABG · CBC<br>Electrolytes · Creatinine</div>
+        </div>
+        <div class="report-arrow">↗</div>
+      </a>
+
+      <!-- Bill Details Card — FINAL BILL -->
+      <a class="bill-card" href="reports/Govind_Roy_Bill.pdf" target="_blank" rel="noopener">
+        <div class="bill-icon">🧾</div>
+        <div class="bill-body">
+          <div class="updated-pill">Final Bill · 16 Mar 2026</div>
+          <div class="bill-title">Full Hospital Bill</div>
+          <div class="bill-sub">Net Payable: ₹1,86,238<br>Gross: ₹3,74,858 · 7-day stay</div>
+        </div>
+        <div class="bill-arrow">↗</div>
+      </a>
+
+      <!-- Discharge Summary Card — NEW -->
+      <a class="bill-card" href="reports/discharge_summary.pdf" target="_blank" rel="noopener"
+        style="background: linear-gradient(135deg, #0d2a1a 0%, #0c3b1a 100%); border-color: rgba(52,211,153,0.25);">
+        <div class="bill-icon" style="background:rgba(52,211,153,0.12); border-color:rgba(52,211,153,0.3);">🏥</div>
+        <div class="bill-body">
+          <div class="updated-pill" style="color:#34d399;">Discharge · 16 Mar 2026</div>
+          <div class="bill-title">Discharge Summary</div>
+          <div class="bill-sub">Dr. Meghana Subhash (Pulmonologist)<br>Diagnosis · Medications · Follow-up</div>
+        </div>
+        <div class="bill-arrow" style="color:#34d399;">↗</div>
+      </a>
+
+    </div>
+
+    <!-- Copy report link button -->
+    <button class="copy-btn" id="copyReportBtn" onclick="copyReportLink()"
+      style="background:#f0f7ff; border:1.5px solid #bfdbfe; color:#1e40af; margin-top:12px; width:100%; justify-content:center;">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+      </svg>
+      <span id="report-copy-label">Copy Lab Report Link to Share</span>
+    </button>
+  </div>
+
+  <script>
+    const UPI_ID = 'neelamkumari01222005-1@okicici';
+    const REPORT_URL = 'https://www.medicoverhospitals.in/reports/lr.html?i=NTA5NTgwMzg5MTk3MzYzMTY%3D';
+
+    function showToast(msg, icon = '✅') {
+      const t = document.getElementById('toast');
+      document.getElementById('toast-msg').textContent = msg;
+      document.getElementById('toast-icon').textContent = icon;
+      t.classList.add('show');
+      setTimeout(() => t.classList.remove('show'), 2600);
+    }
+
+    function copyUPI() {
+      const btn = document.getElementById('copyUpiBtn');
+      const label = document.getElementById('copy-label');
+      navigator.clipboard.writeText(UPI_ID).then(() => {
+        btn.classList.add('copied');
+        label.textContent = 'Copied! ✓';
+        showToast('UPI ID copied — open your payment app now!', '💸');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          label.textContent = 'Copy UPI ID';
+        }, 3000);
+      }).catch(() => {
+        // fallback for older browsers
+        const el = document.createElement('textarea');
+        el.value = UPI_ID;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        btn.classList.add('copied');
+        label.textContent = 'Copied! ✓';
+        showToast('UPI ID copied — open your payment app now!', '💸');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          label.textContent = 'Copy UPI ID';
+        }, 3000);
+      });
+    }
+
+    function copyReportLink() {
+      const btn = document.getElementById('copyReportBtn');
+      const label = document.getElementById('report-copy-label');
+      navigator.clipboard.writeText(REPORT_URL).then(() => {
+        btn.style.background = '#ecfdf5';
+        btn.style.borderColor = '#6ee7b7';
+        btn.style.color = '#065f46';
+        label.textContent = 'Link Copied! ✓';
+        showToast('Report link copied — share with family!', '🔗');
+        setTimeout(() => {
+          btn.style.background = '#f0f7ff';
+          btn.style.borderColor = '#bfdbfe';
+          btn.style.color = '#1e40af';
+          label.textContent = 'Copy Report Link to Share';
+        }, 3000);
+      }).catch(() => {
+        const el = document.createElement('textarea');
+        el.value = REPORT_URL;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        label.textContent = 'Link Copied! ✓';
+        showToast('Report link copied — share with family!', '🔗');
+        setTimeout(() => { label.textContent = 'Copy Report Link to Share'; }, 3000);
+      });
+    }
+
+    // Also allow tapping the UPI ID box itself to copy
+    document.getElementById('upi-id-box').addEventListener('click', copyUPI);
+    document.getElementById('upi-id-box').style.cursor = 'pointer';
+
+    function copyShareMsg() {
+      const btn = document.getElementById('shareCopyBtn');
+      const label = document.getElementById('share-copy-label');
+      const text = document.getElementById('share-msg-text').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        btn.classList.add('copied');
+        label.textContent = 'Copied! Now paste in WhatsApp ✓';
+        showToast('Message copied — paste it anywhere! 📲', '📲');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          label.textContent = 'Copy Message';
+        }, 3500);
+      }).catch(() => {
+        const el = document.createElement('textarea');
+        el.value = text;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        btn.classList.add('copied');
+        label.textContent = 'Copied! Now paste in WhatsApp ✓';
+        showToast('Message copied — paste it anywhere! 📲', '📲');
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          label.textContent = 'Copy Message';
+        }, 3500);
+      });
+    }
+  </script>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>All medical documents, reports, and hospital bills are available for verification. We believe in full transparency.</p>
+    <p class="hospital-ref">Medicover Hospitals, Madhapur · Admission: MC35IP26030452 · UMR: 552311000448</p>
+  </div>
+
+</div>
+</body>
+</html>
